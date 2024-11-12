@@ -1,0 +1,33 @@
+/* src/App.css */
+
+/* Establecer el fondo de toda la página a negro */
+body {
+    margin: 0;
+    height: 100%;
+    background-color: #000;  /* Fondo negro para toda la página */
+    overflow: hidden;  /* Evita barras de desplazamiento */
+    color: white;  /* Asegura que el texto sea visible en el fondo negro */
+  }
+  
+  /* Asegurarse de que el contenedor principal tenga el 100% de alto y de fondo negro */
+  .app-container {
+    height: 100vh; /* Hace que el contenedor ocupe todo el alto de la pantalla */
+    background-color: #000; /* Fondo negro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;  /* Evita cualquier desplazamiento en el contenedor */
+  }
+  
+  /* App.css */
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: black; /* Fondo negro */
+  }
+
+  .canvas {
+    width: 100vw;
+    height: 100vh;
+  }
